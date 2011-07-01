@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PeoplefinderTests' target in the 'PeoplefinderTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

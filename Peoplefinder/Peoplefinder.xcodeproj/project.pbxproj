@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43575FC413BE27FA00BDB4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43575FC313BE27FA00BDB4A7 /* UIKit.framework */; };
+		43575FC613BE27FA00BDB4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43575FC513BE27FA00BDB4A7 /* Foundation.framework */; };
+		43575FC813BE27FA00BDB4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43575FC713BE27FA00BDB4A7 /* CoreGraphics.framework */; };
+		43575FCE13BE27FA00BDB4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43575FCC13BE27FA00BDB4A7 /* InfoPlist.strings */; };
+		43575FD113BE27FA00BDB4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43575FD013BE27FA00BDB4A7 /* main.m */; };
+		43575FD413BE27FA00BDB4A7 /* PeoplefinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43575FD313BE27FA00BDB4A7 /* PeoplefinderAppDelegate.m */; };
+		43575FD713BE27FA00BDB4A7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43575FD513BE27FA00BDB4A7 /* MainWindow.xib */; };
+		43575FDA13BE27FA00BDB4A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43575FD913BE27FA00BDB4A7 /* FirstViewController.m */; };
+		43575FDD13BE27FB00BDB4A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43575FDC13BE27FB00BDB4A7 /* SecondViewController.m */; };
+		43575FE013BE27FB00BDB4A7 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43575FDE13BE27FB00BDB4A7 /* FirstView.xib */; };
+		43575FE313BE27FB00BDB4A7 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43575FE113BE27FB00BDB4A7 /* SecondView.xib */; };
+		43575FEA13BE27FB00BDB4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43575FC313BE27FA00BDB4A7 /* UIKit.framework */; };
+		43575FEB13BE27FB00BDB4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43575FC513BE27FA00BDB4A7 /* Foundation.framework */; };
+		43575FEC13BE27FB00BDB4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43575FC713BE27FA00BDB4A7 /* CoreGraphics.framework */; };
+		43575FF413BE27FB00BDB4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43575FF213BE27FB00BDB4A7 /* InfoPlist.strings */; };
+		43575FF713BE27FB00BDB4A7 /* PeoplefinderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 43575FF613BE27FB00BDB4A7 /* PeoplefinderTests.h */; };
+		43575FF913BE27FB00BDB4A7 /* PeoplefinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43575FF813BE27FB00BDB4A7 /* PeoplefinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43575FED13BE27FB00BDB4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43575FB613BE27FA00BDB4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43575FBE13BE27FA00BDB4A7;
+			remoteInfo = Peoplefinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43575FBF13BE27FA00BDB4A7 /* Peoplefinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peoplefinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43575FC313BE27FA00BDB4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43575FC513BE27FA00BDB4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43575FC713BE27FA00BDB4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43575FCB13BE27FA00BDB4A7 /* Peoplefinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peoplefinder-Info.plist"; sourceTree = "<group>"; };
+		43575FCD13BE27FA00BDB4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43575FCF13BE27FA00BDB4A7 /* Peoplefinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peoplefinder-Prefix.pch"; sourceTree = "<group>"; };
+		43575FD013BE27FA00BDB4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43575FD213BE27FA00BDB4A7 /* PeoplefinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeoplefinderAppDelegate.h; sourceTree = "<group>"; };
+		43575FD313BE27FA00BDB4A7 /* PeoplefinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeoplefinderAppDelegate.m; sourceTree = "<group>"; };
+		43575FD613BE27FA00BDB4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		43575FD813BE27FA00BDB4A7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		43575FD913BE27FA00BDB4A7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		43575FDB13BE27FB00BDB4A7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		43575FDC13BE27FB00BDB4A7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		43575FDF13BE27FB00BDB4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		43575FE213BE27FB00BDB4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		43575FE913BE27FB00BDB4A7 /* PeoplefinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeoplefinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43575FF113BE27FB00BDB4A7 /* PeoplefinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeoplefinderTests-Info.plist"; sourceTree = "<group>"; };
+		43575FF313BE27FB00BDB4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43575FF513BE27FB00BDB4A7 /* PeoplefinderTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeoplefinderTests-Prefix.pch"; sourceTree = "<group>"; };
+		43575FF613BE27FB00BDB4A7 /* PeoplefinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeoplefinderTests.h; sourceTree = "<group>"; };
+		43575FF813BE27FB00BDB4A7 /* PeoplefinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeoplefinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43575FBC13BE27FA00BDB4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43575FC413BE27FA00BDB4A7 /* UIKit.framework in Frameworks */,
+				43575FC613BE27FA00BDB4A7 /* Foundation.framework in Frameworks */,
+				43575FC813BE27FA00BDB4A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43575FE513BE27FB00BDB4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43575FEA13BE27FB00BDB4A7 /* UIKit.framework in Frameworks */,
+				43575FEB13BE27FB00BDB4A7 /* Foundation.framework in Frameworks */,
+				43575FEC13BE27FB00BDB4A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43575FB413BE27FA00BDB4A7 = {
+			isa = PBXGroup;
+			children = (
+				43575FC913BE27FA00BDB4A7 /* Peoplefinder */,
+				43575FEF13BE27FB00BDB4A7 /* PeoplefinderTests */,
+				43575FC213BE27FA00BDB4A7 /* Frameworks */,
+				43575FC013BE27FA00BDB4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43575FC013BE27FA00BDB4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43575FBF13BE27FA00BDB4A7 /* Peoplefinder.app */,
+				43575FE913BE27FB00BDB4A7 /* PeoplefinderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43575FC213BE27FA00BDB4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43575FC313BE27FA00BDB4A7 /* UIKit.framework */,
+				43575FC513BE27FA00BDB4A7 /* Foundation.framework */,
+				43575FC713BE27FA00BDB4A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43575FC913BE27FA00BDB4A7 /* Peoplefinder */ = {
+			isa = PBXGroup;
+			children = (
+				43575FD213BE27FA00BDB4A7 /* PeoplefinderAppDelegate.h */,
+				43575FD313BE27FA00BDB4A7 /* PeoplefinderAppDelegate.m */,
+				43575FD513BE27FA00BDB4A7 /* MainWindow.xib */,
+				43575FD813BE27FA00BDB4A7 /* FirstViewController.h */,
+				43575FD913BE27FA00BDB4A7 /* FirstViewController.m */,
+				43575FDB13BE27FB00BDB4A7 /* SecondViewController.h */,
+				43575FDC13BE27FB00BDB4A7 /* SecondViewController.m */,
+				43575FDE13BE27FB00BDB4A7 /* FirstView.xib */,
+				43575FE113BE27FB00BDB4A7 /* SecondView.xib */,
+				43575FCA13BE27FA00BDB4A7 /* Supporting Files */,
+			);
+			path = Peoplefinder;
+			sourceTree = "<group>";
+		};
+		43575FCA13BE27FA00BDB4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43575FCB13BE27FA00BDB4A7 /* Peoplefinder-Info.plist */,
+				43575FCC13BE27FA00BDB4A7 /* InfoPlist.strings */,
+				43575FCF13BE27FA00BDB4A7 /* Peoplefinder-Prefix.pch */,
+				43575FD013BE27FA00BDB4A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43575FEF13BE27FB00BDB4A7 /* PeoplefinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				43575FF613BE27FB00BDB4A7 /* PeoplefinderTests.h */,
+				43575FF813BE27FB00BDB4A7 /* PeoplefinderTests.m */,
+				43575FF013BE27FB00BDB4A7 /* Supporting Files */,
+			);
+			path = PeoplefinderTests;
+			sourceTree = "<group>";
+		};
+		43575FF013BE27FB00BDB4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43575FF113BE27FB00BDB4A7 /* PeoplefinderTests-Info.plist */,
+				43575FF213BE27FB00BDB4A7 /* InfoPlist.strings */,
+				43575FF513BE27FB00BDB4A7 /* PeoplefinderTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43575FBE13BE27FA00BDB4A7 /* Peoplefinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43575FFC13BE27FB00BDB4A7 /* Build configuration list for PBXNativeTarget "Peoplefinder" */;
+			buildPhases = (
+				43575FBB13BE27FA00BDB4A7 /* Sources */,
+				43575FBC13BE27FA00BDB4A7 /* Frameworks */,
+				43575FBD13BE27FA00BDB4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peoplefinder;
+			productName = Peoplefinder;
+			productReference = 43575FBF13BE27FA00BDB4A7 /* Peoplefinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43575FE813BE27FB00BDB4A7 /* PeoplefinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43575FFF13BE27FB00BDB4A7 /* Build configuration list for PBXNativeTarget "PeoplefinderTests" */;
+			buildPhases = (
+				43575FE413BE27FB00BDB4A7 /* Sources */,
+				43575FE513BE27FB00BDB4A7 /* Frameworks */,
+				43575FE613BE27FB00BDB4A7 /* Resources */,
+				43575FE713BE27FB00BDB4A7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43575FEE13BE27FB00BDB4A7 /* PBXTargetDependency */,
+			);
+			name = PeoplefinderTests;
+			productName = PeoplefinderTests;
+			productReference = 43575FE913BE27FB00BDB4A7 /* PeoplefinderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43575FB613BE27FA00BDB4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = UNL;
+			};
+			buildConfigurationList = 43575FB913BE27FA00BDB4A7 /* Build configuration list for PBXProject "Peoplefinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43575FB413BE27FA00BDB4A7;
+			productRefGroup = 43575FC013BE27FA00BDB4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43575FBE13BE27FA00BDB4A7 /* Peoplefinder */,
+				43575FE813BE27FB00BDB4A7 /* PeoplefinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43575FBD13BE27FA00BDB4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43575FCE13BE27FA00BDB4A7 /* InfoPlist.strings in Resources */,
+				43575FD713BE27FA00BDB4A7 /* MainWindow.xib in Resources */,
+				43575FE013BE27FB00BDB4A7 /* FirstView.xib in Resources */,
+				43575FE313BE27FB00BDB4A7 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43575FE613BE27FB00BDB4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43575FF413BE27FB00BDB4A7 /* InfoPlist.strings in Resources */,
+				43575FF713BE27FB00BDB4A7 /* PeoplefinderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43575FE713BE27FB00BDB4A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43575FBB13BE27FA00BDB4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43575FD113BE27FA00BDB4A7 /* main.m in Sources */,
+				43575FD413BE27FA00BDB4A7 /* PeoplefinderAppDelegate.m in Sources */,
+				43575FDA13BE27FA00BDB4A7 /* FirstViewController.m in Sources */,
+				43575FDD13BE27FB00BDB4A7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43575FE413BE27FB00BDB4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43575FF913BE27FB00BDB4A7 /* PeoplefinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43575FEE13BE27FB00BDB4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43575FBE13BE27FA00BDB4A7 /* Peoplefinder */;
+			targetProxy = 43575FED13BE27FB00BDB4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43575FCC13BE27FA00BDB4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43575FCD13BE27FA00BDB4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43575FD513BE27FA00BDB4A7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43575FD613BE27FA00BDB4A7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		43575FDE13BE27FB00BDB4A7 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43575FDF13BE27FB00BDB4A7 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		43575FE113BE27FB00BDB4A7 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43575FE213BE27FB00BDB4A7 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		43575FF213BE27FB00BDB4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43575FF313BE27FB00BDB4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43575FFA13BE27FB00BDB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43575FFB13BE27FB00BDB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		43575FFD13BE27FB00BDB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peoplefinder/Peoplefinder-Prefix.pch";
+				INFOPLIST_FILE = "Peoplefinder/Peoplefinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43575FFE13BE27FB00BDB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peoplefinder/Peoplefinder-Prefix.pch";
+				INFOPLIST_FILE = "Peoplefinder/Peoplefinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4357600013BE27FB00BDB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peoplefinder.app/Peoplefinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeoplefinderTests/PeoplefinderTests-Prefix.pch";
+				INFOPLIST_FILE = "PeoplefinderTests/PeoplefinderTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4357600113BE27FB00BDB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peoplefinder.app/Peoplefinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeoplefinderTests/PeoplefinderTests-Prefix.pch";
+				INFOPLIST_FILE = "PeoplefinderTests/PeoplefinderTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43575FB913BE27FA00BDB4A7 /* Build configuration list for PBXProject "Peoplefinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43575FFA13BE27FB00BDB4A7 /* Debug */,
+				43575FFB13BE27FB00BDB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43575FFC13BE27FB00BDB4A7 /* Build configuration list for PBXNativeTarget "Peoplefinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43575FFD13BE27FB00BDB4A7 /* Debug */,
+				43575FFE13BE27FB00BDB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43575FFF13BE27FB00BDB4A7 /* Build configuration list for PBXNativeTarget "PeoplefinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4357600013BE27FB00BDB4A7 /* Debug */,
+				4357600113BE27FB00BDB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43575FB613BE27FA00BDB4A7 /* Project object */;
+}
